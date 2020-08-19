@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - KeychainAccess (4.2.0)
+  - Resolver (1.1.4)
+  - SwiftCoroutine (2.1.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - KeychainAccess
+  - Resolver
+  - SwiftCoroutine
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - KeychainAccess
+    - Resolver
+    - SwiftCoroutine
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  KeychainAccess: 3f760109aa99b05d0f231e28b22642da7153e38a
+  Resolver: 1f4c046255cbadfa97094692e16e940d4329779f
+  SwiftCoroutine: 94a9d02aae382d4f0549a191d5ba5c01dfe752a5
+
+PODFILE CHECKSUM: f54311717bcd1fa0638ac110066f5b0bb816dd76
+
+COCOAPODS: 1.9.3

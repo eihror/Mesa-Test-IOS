@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Italic.ttf">
+            <string>Roboto-Italic</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomNewsCell" customModule="Test_Mesa_Igor" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomNewsCell" id="KGk-i7-Jjw" customClass="CustomNewsCell" customModule="Test_Mesa_Igor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="328"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="328"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dbN-oW-d86">
+                        <rect key="frame" x="0.0" y="16" width="320" height="154"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="154" id="RTb-bB-q6g"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gd-AY-S9L">
+                        <rect key="frame" x="320" y="184" width="0.0" height="17"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="2X6-Np-E7S"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Italic" family="Roboto" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolsa dispara 9%; dólar opera em baixa, vendido perto de R$ 5,08" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfx-DV-Us0">
+                        <rect key="frame" x="0.0" y="215" width="320" height="37.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9F-xB-bVp">
+                        <rect key="frame" x="0.0" y="260.5" width="320" height="51.5"/>
+                        <string key="text">No mesmo horário, o dólar registrava baixa de 1,02%, a R$ 5,084 na venda, após fechar em alta de 2,21%, a R$ 5,138 na venda, ontem.</string>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMC-Jg-IaD">
+                        <rect key="frame" x="0.0" y="178" width="28" height="28"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="VEk-6w-c7Y"/>
+                            <constraint firstAttribute="width" constant="28" id="Xli-1R-DPT"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="saved"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jfx-DV-Us0" firstAttribute="top" secondItem="0gd-AY-S9L" secondAttribute="bottom" constant="14" id="28Z-6F-Jbk"/>
+                    <constraint firstItem="OMC-Jg-IaD" firstAttribute="top" secondItem="dbN-oW-d86" secondAttribute="bottom" constant="8" id="7HH-bw-8Nz"/>
+                    <constraint firstAttribute="bottom" secondItem="p9F-xB-bVp" secondAttribute="bottom" constant="16" id="GnD-jW-1rf"/>
+                    <constraint firstAttribute="trailing" secondItem="dbN-oW-d86" secondAttribute="trailing" id="LwT-AT-piN"/>
+                    <constraint firstItem="jfx-DV-Us0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Plu-mw-7zk"/>
+                    <constraint firstItem="OMC-Jg-IaD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QFA-k9-x9w"/>
+                    <constraint firstAttribute="trailing" secondItem="jfx-DV-Us0" secondAttribute="trailing" id="Qzr-d4-KDI"/>
+                    <constraint firstItem="0gd-AY-S9L" firstAttribute="top" secondItem="dbN-oW-d86" secondAttribute="bottom" constant="14" id="ecP-ES-EJ6"/>
+                    <constraint firstItem="dbN-oW-d86" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="jQF-2m-gdO"/>
+                    <constraint firstAttribute="trailing" secondItem="0gd-AY-S9L" secondAttribute="trailing" id="kMH-Da-Z9y"/>
+                    <constraint firstAttribute="trailing" secondItem="p9F-xB-bVp" secondAttribute="trailing" id="n91-xy-Igf"/>
+                    <constraint firstItem="p9F-xB-bVp" firstAttribute="top" secondItem="jfx-DV-Us0" secondAttribute="bottom" constant="8" id="nem-SX-VIA"/>
+                    <constraint firstItem="p9F-xB-bVp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tt4-Iw-7fa"/>
+                    <constraint firstItem="dbN-oW-d86" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yJ4-Pr-CrJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="newsDescription" destination="p9F-xB-bVp" id="sH8-5D-6JH"/>
+                <outlet property="newsImage" destination="dbN-oW-d86" id="g6w-Pv-sFl"/>
+                <outlet property="newsTitle" destination="jfx-DV-Us0" id="7gC-Be-ZwY"/>
+                <outlet property="timeAgo" destination="0gd-AY-S9L" id="Qzz-fJ-twR"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="122.54464285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="saved" width="28" height="28"/>
+    </resources>
+</document>
